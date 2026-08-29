@@ -38,13 +38,7 @@ Screen Check is designed to be trustworthy by default:
 - **No ads, no analytics, no third-party SDKs** of any kind.
 - Stores **nothing** on your device.
 
-## Install
-
-### Google Play
-
-Coming soon.
-
-### Build from source
+## Build
 
 ```bash
 git clone https://github.com/apiaoa/ScreenCheck.git
@@ -55,7 +49,7 @@ cd ScreenCheck
 Requirements: Android Studio (current stable) or JDK 17+ with the Android SDK
 (compileSdk 36).
 
-### Release build
+## Release build
 
 Release signing is local-only and optional. Set up `keystore/screencheck-release.jks`
 and `keystore.properties` (both are gitignored):
@@ -88,3 +82,7 @@ Then `./gradlew :app:assembleRelease` produces a signed APK and
 - All graphics are drawn in code (Compose Canvas and vector drawables); the
   release APK is under 1 MB
 - minSdk 26 · targetSdk 36
+
+## License
+
+Licensed under the [Apache License 2.0](LICENSE).
