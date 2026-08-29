@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Screen Check</string>
+
+    <!-- Home -->
+    <string name="home_tagline">Check your screen for dead pixels, banding and specs — fully offline.</string>
+    <string name="home_footer">No ads · No permissions · No network access</string>
+    <string name="home_color_title">Dead Pixel Test</string>
+    <string name="home_color_desc">Full-screen solid colors reveal dead pixels, bright spots and backlight bleed.</string>
+    <string name="home_gray_title">Grayscale Test</string>
+    <string name="home_gray_desc">16-step gray scale, gradient and mid gray expose banding and uneven backlight.</string>
+    <string name="home_info_title">Display Info</string>
+    <string name="home_info_desc">Resolution, density, refresh rate and HDR support at a glance.</string>
+
+    <!-- Test gesture hints -->
+    <string name="hint_color_test">Tap to switch color · Hold 1.5s to exit</string>
+    <string name="hint_gray_test">Tap to switch pattern · Hold 1.5s to exit</string>
+
+    <!-- Display info -->
+    <string name="info_title">Display Info</string>
+    <string name="info_note">Values are read directly from your device\'s operating system and shown as reported.</string>
+    <string name="info_resolution">Resolution</string>
+    <string name="info_screen_size">Diagonal size</string>
+    <string name="info_density">Density</string>
+    <string name="info_refresh_rate">Refresh rate</string>
+    <string name="info_max_refresh_rate">Max refresh rate</string>
+    <string name="info_orientation">Orientation</string>
+    <string name="info_hdr">HDR display</string>
+    <string name="info_orientation_portrait">Portrait</string>
+    <string name="info_orientation_landscape">Landscape</string>
+    <string name="hdr_supported">Supported</string>
+    <string name="hdr_not_supported">Not supported</string>
+    <string name="value_not_available">N/A</string>
+</resources>
